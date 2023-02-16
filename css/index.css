@@ -4926,6 +4926,12 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap .wl-comment-actions > button:not(last-child) {
   padding-right: 4px;
 }
+#vcomment textarea {
+  background: url("/img/comment_bg.png") 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
+}
 #waline-wrap textarea {
   background: url("/img/comment_bg.png") 100% 100% no-repeat;
 }
