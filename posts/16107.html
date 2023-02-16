@@ -253,7 +253,7 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
       el: '#vcomment',
       appId: 'ESgdsW7H5cxFGzyGsYGQQs7v-MdYXbMMI',
       appKey: 'VvRzQAOHCeZ5p68vEbsoHnkS',
-      avatar: '',
+      avatar: 'mp',
       serverURLs: 'https://esgdsw7h.api.lncldglobal.com',
       emojiMaps: "",
       path: window.location.pathname,
@@ -289,7 +289,7 @@ if ('Valine' === 'Valine' || !false) {
 
   const getIcon = (icon, mail) => {
     if (icon) return icon
-    let defaultIcon = ''
+    let defaultIcon = '?d=mp'
     let iconUrl = `https://gravatar.loli.net/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
     return iconUrl
   }
