@@ -398,7 +398,7 @@ document.body.addEventListener('input', POWERMODE);
 </script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
 var pjax = new Pjax({
-  elements: 'a:not([target="_blank"])',
+  elements: 'a:not([target="_blank"]):not([href="/Artitalk/"])',
   selectors: pjaxSelectors,
   cacheBust: false,
   analytics: false,
